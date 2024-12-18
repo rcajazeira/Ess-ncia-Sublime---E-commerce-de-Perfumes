@@ -1,0 +1,33 @@
+{
+    "marca": "Vitality",
+    "produtos": [
+      {
+        "id": 9,
+        "nome": "Aqua Marine",
+        "preco": 90.00,
+        "imagem": "images/vitality_aqua.jpg",
+        "descricao": "Um perfume refrescante com notas marinhas e cítricas."
+      },
+       {
+        "id": 10,
+        "nome": "Fleur de Soleil",
+        "preco": 110.00,
+        "imagem": "images/vitality_fleur.jpg",
+         "descricao": "Um perfume alegre com notas de flores amarelas e frutadas."
+      },
+      {
+        "id": 11,
+        "nome": "Bois d'Épice",
+        "preco": 100.00,
+        "imagem": "images/vitality_bois.jpg",
+         "descricao": "Um perfume energizante com notas de madeira e especiarias."
+      },
+       {
+        "id": 12,
+        "nome": "Framboise Intense",
+        "preco": 120.00,
+        "imagem": "images/vitality_framboise.jpg",
+         "descricao": "Um perfume vibrante com notas de framboesa e frutas vermelhas."
+      }
+    ]
+  }

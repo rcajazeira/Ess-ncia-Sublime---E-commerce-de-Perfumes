@@ -1,0 +1,33 @@
+{
+    "marca": "Prestige",
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Éclat d'Or",
+        "preco": 350.00,
+        "imagem": "images/prestige_eclat.jpg",
+        "descricao": "Um perfume opulento com notas de jasmim e âmbar."
+      },
+      {
+        "id": 2,
+        "nome": "Nuit Étoilée",
+        "preco": 380.00,
+        "imagem": "images/prestige_nuit.jpg",
+         "descricao":"Uma fragrância misteriosa com toques de patchouli e baunilha."
+      },
+      {
+        "id": 3,
+        "nome": "Rose Impériale",
+        "preco": 360.00,
+        "imagem": "images/prestige_rose.jpg",
+         "descricao": "Um perfume floral sofisticado com notas de rosa damascena."
+      },
+        {
+        "id": 4,
+        "nome": "Bois de Saphir",
+        "preco": 390.00,
+        "imagem": "images/prestige_bois.jpg",
+         "descricao":"Uma fragrância amadeirada com notas de sândalo e vetiver."
+      }
+    ]
+  }

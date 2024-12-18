@@ -1,0 +1,33 @@
+{
+    "marca": "Elegance",
+    "produtos": [
+      {
+        "id": 5,
+        "nome": "Brise d'Été",
+        "preco": 180.00,
+        "imagem": "images/elegance_brise.jpg",
+         "descricao": "Um perfume fresco com notas cítricas e florais leves."
+      },
+      {
+        "id": 6,
+        "nome": "Cœur de Violette",
+        "preco": 200.00,
+        "imagem": "images/elegance_coeur.jpg",
+         "descricao": "Um perfume delicado com notas de violeta e almíscar."
+      },
+      {
+        "id": 7,
+        "nome": "Ambre Doux",
+        "preco": 190.00,
+        "imagem": "images/elegance_ambre.jpg",
+         "descricao": "Um perfume quente e envolvente com notas de âmbar e especiarias."
+      },
+      {
+        "id": 8,
+        "nome": "Jardin Secret",
+        "preco": 210.00,
+        "imagem": "images/elegance_jardin.jpg",
+         "descricao": "Um perfume floral com notas de peônia e lírio-do-vale."
+      }
+    ]
+  }

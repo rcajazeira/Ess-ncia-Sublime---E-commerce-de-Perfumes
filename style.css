@@ -1,0 +1,185 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.produto img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+     border-radius: 8px;
+}
+.produto h3 {
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+.produto p{
+ margin-bottom: 15px;
+}
+
+.produto button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.produto button:hover {
+ background-color: #4cae4c;
+}
+
+#carrinho {
+  background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#lista-carrinho {
+  list-style-type: none;
+  padding: 0;
+}
+#lista-carrinho li{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+#lista-carrinho li:last-child{
+  border-bottom: none;
+}
+#lista-carrinho li span{
+  margin-right: 10px;
+}
+#lista-carrinho button {
+  background-color: #d9534f;
+  color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#lista-carrinho button:hover {
+ background-color: #c9302c;
+}
+
+#total-carrinho {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Cores Específicas */
+
+#prestige {
+    background-color: #f0ead6;
+}
+
+#prestige .carousel {
+    background-color: #fff;
+}
+#prestige .carousel .produto button {
+    background-color: #000000;
+}
+
+#prestige h2 {
+ color: #000000;
+}
+
+#elegance {
+    background-color: #e9f5f0;
+}
+
+#elegance .carousel {
+    background-color: #fff;
+}
+#elegance .carousel .produto button {
+    background-color: #6d95bc;
+}
+
+#elegance h2 {
+ color: #6d95bc;
+}
+
+#vitality {
+    background-color: #c8e6c9;
+}
+
+#vitality .carousel {
+    background-color: #fff;
+}
+#vitality .carousel .produto button {
+    background-color: #558b2f;
+}
+#vitality h2 {
+    color: #558b2f;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    max-height: 270px; /* Altura máxima da logo */
+    margin-left: 350px; /* Espaço à esquerda */
+    margin-left: 20px;
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+}
+header {
+    display: flex; /* Habilita o flexbox */
+    justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+    align-items: center; /* Alinha o conteúdo ao centro verticalmente */
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+header h1 {
+    margin-right: 20px; /* Espaço à direita do título */
+}
