@@ -171,7 +171,7 @@ footer {
     margin-left: 20px;
     vertical-align: middle; /* Alinha verticalmente com o texto */
     height: auto;
-    max-width: 200px;
+    max-width: 50px;
 }
 header {
     display: flex; /* Habilita o flexbox */
