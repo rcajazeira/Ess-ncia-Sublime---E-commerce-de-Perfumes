@@ -166,14 +166,16 @@ footer {
 }
 
 .logo {
-    max-height: 270px; /* Altura máxima da logo */
-    margin-left: 350px; /* Espaço à esquerda */
+    max-height: 100px; /* Altura máxima da logo */
+    
     margin-left: 20px;
     vertical-align: middle; /* Alinha verticalmente com o texto */
+    height: auto;
+    max-width: 100px;
 }
 header {
     display: flex; /* Habilita o flexbox */
-    justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+    justify-content: space-between; /* Alinha o conteúdo ao centro horizontalmente */
     align-items: center; /* Alinha o conteúdo ao centro verticalmente */
     background-color: #1a1a1a;
     color: #fff;
@@ -182,4 +184,5 @@ header {
 }
 header h1 {
     margin-right: 20px; /* Espaço à direita do título */
+     margin: 0;
 }
