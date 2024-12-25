@@ -7,11 +7,33 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column; /* Alinha verticalmente no mobile */
+    justify-content: center; /* Alinha ao centro no mobile */
+    align-items: center; /* Centraliza o alinhamento verticalmente*/
     background-color: #1a1a1a;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px; /* Diminui o padding no geral */
+    gap: 10px; /* Adiciona espaço entre os itens no mobile */
 }
+
+header h1 {
+    margin: 0; /* Remove margens */
+}
+/* Media Query para desktop */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row; /* Alinha na horizontal */
+        justify-content: space-between; /* Alinha com espaço entre os itens */
+        padding: 20px; /* aumenta o padding */
+        gap: 0; /*Remove espaço entre os itens*/
+
+    }
+    header h1 {
+      flex: 1; /* ocupa o espaço restante do header*/
+    }
+}
+
 
 main {
     padding: 20px;
@@ -166,23 +188,8 @@ footer {
 }
 
 .logo {
-    max-height: 100px; /* Altura máxima da logo */
-    
-    margin-left: 20px;
-    vertical-align: middle; /* Alinha verticalmente com o texto */
-    height: auto;
-    max-width: 100px;
-}
-header {
-    display: flex; /* Habilita o flexbox */
-    justify-content: space-between; /* Alinha o conteúdo ao centro horizontalmente */
-    align-items: center; /* Alinha o conteúdo ao centro verticalmente */
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 40px;
-    text-align: center;
-}
-header h1 {
-    margin-right: 20px; /* Espaço à direita do título */
-     margin: 0;
+     margin-left: 20px;
+    vertical-align: middle;
+    height: auto; /* Mantém a proporção */
+        max-width: 200px; /* Aumenta o tamanho da logo */
 }
