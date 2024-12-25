@@ -8,32 +8,31 @@ body {
 
 header {
     display: flex;
-    flex-direction: column; /* Alinha verticalmente no mobile */
-    justify-content: center; /* Alinha ao centro no mobile */
-    align-items: center; /* Centraliza o alinhamento verticalmente*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #1a1a1a;
     color: #fff;
-    padding: 10px; /* Diminui o padding no geral */
-    gap: 10px; /* Adiciona espaço entre os itens no mobile */
+    padding: 10px;
+    gap: 10px;
 }
 
 header h1 {
-    margin: 0; /* Remove margens */
+    margin: 0;
 }
-/* Media Query para desktop */
+
 @media (min-width: 768px) {
     header {
-        flex-direction: row; /* Alinha na horizontal */
-        justify-content: space-between; /* Alinha com espaço entre os itens */
-        padding: 20px; /* aumenta o padding */
-        gap: 0; /*Remove espaço entre os itens*/
-
+        flex-direction: row;
+        justify-content: flex-start; /* Alinha os itens no início do header*/
+        padding: 20px;
+        gap: 0;
     }
-    header h1 {
-      flex: 1; /* ocupa o espaço restante do header*/
-    }
+     /*Removi o flex 1*/
+    /* header h1 {
+      flex: 1; 
+    } */
 }
-
 
 main {
     padding: 20px;
@@ -190,6 +189,6 @@ footer {
 .logo {
      margin-left: 20px;
     vertical-align: middle;
-    height: auto; /* Mantém a proporção */
-        max-width: 200px; /* Aumenta o tamanho da logo */
+    height: auto;
+        max-width: 200px;
 }
